@@ -14,10 +14,6 @@ kind: Terraform
 metadata:
   name: helloworld-tf
 spec:
-  healthChecks:  
-    - name: Teste
-      type: http
-      url: https://github.com/pmmenezes/tf-controller-helloworld
   path: ./terraform
   approvePlan: auto
   interval: 1m
