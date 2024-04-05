@@ -5,7 +5,7 @@ metadata:
   name: helloworld-tf
 spec:
   interval: 1m
-  url: https://https://github.com/pmmenezes/tf-controller-helloworld
+  url: https://github.com/pmmenezes/tf-controller-helloworld
   ref:
     branch: main
 ---
